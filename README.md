@@ -1,0 +1,2 @@
+# DesingPatternChallenge
+Factory Method
