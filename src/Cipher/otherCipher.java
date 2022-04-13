@@ -2,6 +2,8 @@ package Cipher;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class otherCipher implements Coder {
@@ -20,6 +22,14 @@ public class otherCipher implements Coder {
             reverse = ch + reverse; //adds each character in front of the existing string
         }
         System.out.println("Cipher Message: " + "\n" + reverse);
+
+        try {
+            FileWriter filetxt = new FileWriter("output.txt");
+            filetxt.write("Original Message: " + "\n" + message + "\n" + "Cipher Message: " + "\n" + reverse);
+            filetxt.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
