@@ -3,7 +3,7 @@ package Cipher;
 import java.io.*;
 import java.util.Scanner;
 
-public class caesarCipher implements Coder {
+public class CaesarCipher implements Coder {
 
     @Override
     public void messageCoder() throws FileNotFoundException {

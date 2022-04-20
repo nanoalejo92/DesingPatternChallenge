@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class otherCipher implements Coder {
+public class OtherCipher implements Coder {
 
     @Override
     public void messageCoder() throws FileNotFoundException {
