@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class cipherApplication {
     public static void main(String[] args) throws FileNotFoundException {
         String optionCipher;
-        System.out.print("Enter a option to cipher the message" + "\n" + "1: Caesar Cipher" + "\n" + "2: Other Cipher" + "\n");
+        System.out.print("Enter an1 option to cipher the message" + "\n" + "1: Caesar Cipher" + "\n" + "2: Other Cipher" + "\n");
         Scanner scanner = new Scanner(System.in);
         optionCipher = scanner.next();
 

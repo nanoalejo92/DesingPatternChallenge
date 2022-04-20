@@ -8,7 +8,7 @@ public class caesarCipher implements Coder {
     @Override
     public void messageCoder() throws FileNotFoundException {
 
-        File file = new File("/Users/johanalejandrorobeltobayona/IdeaProjects/DesingPatternChallenge/src/resource/message.txt");
+        File file = new File("./src/resource/message.txt");
         Scanner scan = new Scanner(file);
         String message = scan.nextLine();
         char[] chars = message.toCharArray();
